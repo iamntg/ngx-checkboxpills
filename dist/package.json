@@ -1,6 +1,6 @@
 {
   "name": "ngx-checkboxpills",
-  "version": "1.4.0",
+  "version": "1.5.1",
   "description": "pills type checkbox groups with customizable functionalites",
   "main": "checkbox-pill.umd.js",
   "jsnext:main": "checkbox-pill.esm.js",
