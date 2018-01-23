@@ -1,6 +1,6 @@
 {
   "name": "ngx-checkboxpills",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "pills type checkbox groups with customizable functionalites",
   "main": "checkbox-pill.umd.js",
   "jsnext:main": "checkbox-pill.esm.js",
@@ -18,8 +18,7 @@
     "ngxcheckbox",
     "angular",
     "checkbox",
-    "checkbox",
-    "group"
+    "checkboxgroup"
   ],
   "author": "Nitheesh T Ganesh",
   "license": "ISC",
