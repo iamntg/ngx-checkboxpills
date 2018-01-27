@@ -1,6 +1,7 @@
 <div class="checkbox-pills-container">
-    <div class="checkbox-pill" *ngFor="let data of inputArray" #pillsArray>
-        <input id="{{data[pillIdVariable]+inputArrayName}}" type="checkbox" name="pillGroup" [value]="data[pillIdVariable]" (change)="changeInCheck($event, data)">
-        <label for="{{data[pillIdVariable]+inputArrayName}}" class="">{{data[pillTextVariable]}}</label>
-    </div>
+  <div class="checkbox-pill" *ngFor="let data of inputArray" #pillsArray>
+    <input id="{{data[pillIdVariable]+inputArrayName}}" type="checkbox" name="pillGroup" [value]="data[pillIdVariable]" (change)="changeInCheck($event, data);">
+    <label for="{{data[pillIdVariable]+inputArrayName}}" [ngStyle]="setUncheckedStyle()">{{data[pillTextVariable]}} {{(data[pillIdVariable]+inputArrayName).checked}}
+    </label>
+  </div>
 </div>

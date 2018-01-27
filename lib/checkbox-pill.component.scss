@@ -1,7 +1,44 @@
+$primary: #444;
 .checkbox-pills-container {
-    width: 100%;
-    .checkbox-pill {
-        display: inline-block;
-        margin-right: 10px;
+  width: 100%;
+  .checkbox-pill {
+    display: inline-block;
+    margin-right: 10px;
+    label {
+      background: #fff;
+      padding: 8px 15px;
+      border-radius: 40px;
+      color: $primary;
+      cursor: pointer;
+      border: 2px solid $primary;
+      -webkit-touch-callout: none;
+      /* iOS Safari */
+      -webkit-user-select: none;
+      /* Safari */
+      -khtml-user-select: none;
+      /* Konqueror HTML */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      /* Internet Explorer/Edge */
+      user-select: none;
+      /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 10px;
+      font-weight: bold;
+      &:hover {
+        background: #ccc;
+      }
     }
+    input[type=checkbox] {
+      visibility: hidden;
+      position: absolute;
+      &:checked+label {
+        background: $primary;
+        color: #fff;
+      }
+    }
+  }
 }

@@ -6,6 +6,8 @@ export declare class CheckboxPillComponent implements OnInit {
     pillsSelected: Array<String>;
     pillIdVariable: string;
     pillTextVariable: string;
+    activePillBGColor: string;
+    activePillFontColor: string;
     pillsSelectedChange: EventEmitter<Object>;
     pillsArray: any;
     outputArray: any[];
@@ -15,4 +17,12 @@ export declare class CheckboxPillComponent implements OnInit {
     ngOnChanges(changes: any): void;
     ngAfterViewInit(): void;
     changeInCheck(event: any, data: any): void;
+    setUncheckedStyle(): {
+        'color': string;
+        'border-color': string;
+    };
+    setCheckedStyle(): {
+        'color': string;
+        'background': string;
+    };
 }
