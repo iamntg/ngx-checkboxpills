@@ -78,6 +78,11 @@ Use the `app-checkbox-pill` in the Template or TemplateUrl in the component.
 
 ```
 
+##### Example
+
+![ScreenShot1](https://raw.githubusercontent.com/iamntg/ngx-checkboxpills/master/images/scr2.jpeg)
+
+![ScreenShot1](https://raw.githubusercontent.com/iamntg/ngx-checkboxpills/master/images/scr3.jpeg)
 
 
 ## Parameters
