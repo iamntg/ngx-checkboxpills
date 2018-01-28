@@ -53,7 +53,7 @@ export class SuperHeroComponent {
 
     }
     
-    //output event
+    //output Listener event
     selectedSuperHeros(superHeroArray) {
         console.log("superHeroArray ", superHeroArray);
         //do whatever you want to alter the output
@@ -77,4 +77,19 @@ Use the `app-checkbox-pill` in the Template or TemplateUrl in the component.
 </app-checkbox-pill>
 
 ```
+
+
+
+## Parameters
+
+
+| Param | Type | Required | Description |
+| --- | --- | --- | --- |
+| <b>inputArray</b> | Array of Objects | Yes | This should be an array of objects, which is used to display the data in the pills. The objects in the array should contain an unique id and text to display. |
+| <b>pillIdVariable</b> | String | Yes | This will be the variable name you are using for the unique id. |
+| <b>pillTextVariable</b> | String | Yes | This will be the variable name you are using for the display text. |
+| <b>pillsSelected</b> | Array of Objects | Yes | This will be the output variable used to store the selected pills objects |
+| <b>activePillBGColor</b> | String | No | This variable is used for theming, should be a string of hex color value. default color value is #712626 |
+| <b>activePillFontColor</b> | String | No | This variable is used for theming(font color when the pill is selected), should be a string of hex color value. default color value is #fff |
+| <b>pillsSelectedChange</b> | function | Yes | This function is used as an output listener. |
 
