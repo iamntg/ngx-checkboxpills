@@ -5,6 +5,8 @@ node_js:
   - "lts/*"
 install:
   - rm -fr node_modules
+  - npm install rollup
+  - npm install typescript
   - npm install
 
 script:
