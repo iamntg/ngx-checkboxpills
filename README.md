@@ -1,5 +1,10 @@
-<h1 align="center">ngx-checkboxpills</h1> 
+<h1 align="center"><a href="https://iamntg.github.io/ngx-checkboxpills/">ngx-checkboxpills</a></h1> 
 <p align="center">pills type checkbox groups with customizable functionalites</p>
+
+<p align="center">
+<a href="https://badge.fury.io/js/ngx-checkboxpills"><img src="https://badge.fury.io/js/ngx-checkboxpills.svg" alt="npm version" height="18"></a>
+<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fiamntg%2Fngx-checkboxpills"><img src="https://img.shields.io/twitter/url/https/github.com/iamntg/ngx-checkboxpills.svg?style=flat" alt="npm downloads" height="18"></a>
+</p>
 
 ## Install from NPM
 
