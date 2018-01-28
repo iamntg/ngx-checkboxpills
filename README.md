@@ -3,6 +3,7 @@
 
 <p align="center">
 <a href="https://badge.fury.io/js/ngx-checkboxpills"><img src="https://badge.fury.io/js/ngx-checkboxpills.svg" alt="npm version" height="18"></a>
+<a href="https://travis-ci.org/iamntg/ngx-checkboxpills"><img src="https://travis-ci.org/iamntg/ngx-checkboxpills.svg?branch=master" alt="travis build" height="18"></a>
 <a href="https://github.com/iamntg/ngx-checkboxpills/blob/master/LICENSE"><img src="https://img.shields.io/github/license/iamntg/ngx-checkboxpills.svg" alt="license" height="18"></a>
 <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fiamntg%2Fngx-checkboxpills"><img src="https://img.shields.io/twitter/url/https/github.com/iamntg/ngx-checkboxpills.svg?style=flat" alt="npm downloads" height="18"></a>
 </p>
